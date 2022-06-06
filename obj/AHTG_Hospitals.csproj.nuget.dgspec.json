@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\AHTG_Hospitals\\AHTG_Hospitals.csproj": {}
+    "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\athg-services\\AHTG_Hospitals.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\AHTG_Hospitals\\AHTG_Hospitals.csproj": {
+    "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\athg-services\\AHTG_Hospitals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\AHTG_Hospitals\\AHTG_Hospitals.csproj",
+        "projectUniqueName": "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\athg-services\\AHTG_Hospitals.csproj",
         "projectName": "AHTG_Hospitals",
-        "projectPath": "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\AHTG_Hospitals\\AHTG_Hospitals.csproj",
+        "projectPath": "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\athg-services\\AHTG_Hospitals.csproj",
         "packagesPath": "C:\\Users\\jhalv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\AHTG_Hospitals\\obj\\",
+        "outputPath": "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\athg-services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

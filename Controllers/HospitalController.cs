@@ -20,7 +20,7 @@ namespace AHTG_Hospitals.Controllers
         {
             using(var dbContext = new MyDbContext())
             {
-                return dbContext.Hospitals.Include(hospital => hospital.Address).Include(hospital => hospital.Employees).ToList();
+                return dbContext.Hospitals.Include(hospital => hospital.Employees).ToList();
             }
         }
 
@@ -30,7 +30,6 @@ namespace AHTG_Hospitals.Controllers
             using(var dbContext = new MyDbContext())
             {
                 var result = dbContext.Hospitals
-                    .Include(hospital => hospital.Address)
                     .Include(hospital => hospital.Employees)
                     .Where(hospital => hospital.Id == id).FirstOrDefault();
                 return result;

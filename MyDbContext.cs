@@ -25,13 +25,9 @@ namespace AHTG_Hospitals
             // configures one-to-many relationship
             modelBuilder.Entity<Hospital>()
                 .HasMany(h => h.Employees);
-
-            modelBuilder.Entity<Hospital>()
-                .HasOne(h => h.Address);
         }
 
         public DbSet<Hospital> Hospitals { get; set; }
-        public DbSet<Address> Addresses { get; set; }
         public DbSet<Employee> Employees { get; set; }
     }
 }

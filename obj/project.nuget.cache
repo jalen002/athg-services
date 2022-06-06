@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ePMhrkDcEtpBc8Z1ogw3rKbrfQZs5NIVCw4Gbfd26xZYr9Az/kiW0smP3q2LpLZnMy5SL3o1IhnhiHg/nVq7/Q==",
+  "dgSpecHash": "IF0tyNABXZr4veQcHc1NuHGb0nOaOX9MTpSEQIBo/7CvsEvvP9kWotOhOXpPUWYlfIH5sN8PxJY/WkNkssJ2Lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\AHTG_Hospitals\\AHTG_Hospitals.csproj",
+  "projectFilePath": "C:\\Users\\jhalv\\Documents\\Development\\ahtg\\athg-services\\AHTG_Hospitals.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhalv\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.5\\microsoft.data.sqlite.core.6.0.5.nupkg.sha512",
     "C:\\Users\\jhalv\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",

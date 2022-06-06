@@ -9,9 +9,7 @@ namespace AHTG_Hospitals.models
 
         public string Director { get; set; }
 
-        public int AddressId { get; set; }
-
-        public Address Address { get; set; }
+        public string Address { get; set; }
 
         public List<Employee> Employees { get; set; } = new List<Employee>();
     }
