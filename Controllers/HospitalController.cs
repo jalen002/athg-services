@@ -63,7 +63,7 @@ namespace AHTG_Hospitals.Controllers
         {
             using(var dbContext = new MyDbContext())
             {
-                Hospital hospitalToRemove = new Hospital { Id = hospitalId };
+                Hospital hospitalToRemove = dbContext.Hospitals.Where(hospital => hospital.Id == hospitalId).First();
                 dbContext.Hospitals.Remove(hospitalToRemove);
                 dbContext.SaveChanges();
                 return true;
